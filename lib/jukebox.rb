@@ -47,7 +47,7 @@ end
 
 def run(songs)
   program = true
-  while program == true
+  if program == true
     puts "Enter your name:"
     users_name = gets.chomp
     puts say_hello(users_name)
